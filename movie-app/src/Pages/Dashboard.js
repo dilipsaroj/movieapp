@@ -1,8 +1,11 @@
 import React from 'react'
+import MyList from './MyMovieList/MyList'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+        <MyList />
+    </div>
   )
 }
 

@@ -12,5 +12,68 @@
     padding: 20px;
 }
 .sidebar{
-    background:#bbb;
+    background:#1F2A3C;
+    color: #fff;
+    height: 100vh;
+    width: 300px;
+    transition: all .5s;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px ;
+}
+.logo{
+    font-size: 25px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all .5s;
+}
+.link:hover{
+    color: #00E0FF;
+}
+.active{
+    /* background: ; */
+    color: #00E0FF;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.cards{
+    padding: 40px;
+}
+.cards .each_card{
+    width: 19%;
+    float: left;
+    text-align: center ;
+    margin-bottom: 20px;
+    background: #394B61;
+    border-radius: 11px;
+    padding: 5px 15px;
+    margin-right: 1%;
+}
+.each_card .img_style{
+    width: 182px;
+    height: 220px;
+}
+.each_card .img_style img{
+    width: 100%;
+}
+.each_card .title_style{
+    padding: 10px 0;
+    color: #D4D7DD;
+    font-weight: 700px;
+    text-align: left !important;
+}
+.each_card .btn_style{
+    text-align: left !important;
 }
